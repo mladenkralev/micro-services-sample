@@ -1,0 +1,9 @@
+rootProject.name = 'microservice-solution'
+
+include 'services'
+include 'services:discovery-server'
+include 'services:configuration-server'
+
+include 'services:ratings-recipe-service'
+include 'services:recipe-catalog-service'
+include 'services:recipe-info-service'
