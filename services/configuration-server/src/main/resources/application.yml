@@ -1,3 +1,12 @@
-server.port=8889
-spring.cloud.config.server.git.uri=git@github.com:mladenkralev/micro-services-sample.git
-spring.cloud.config.server.git.username=mladenkralev
+server:
+  port: 8888
+
+# spring cloud config repo settings.
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:mladenkralev/micro-services-sample.git
+          ignoreLocalSshSettings: false
+          strictHostKeyChecking: false
